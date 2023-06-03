@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelsDto", "ModelsDto\ModelsDto.csproj", "{9A08B234-C17B-4B48-847A-EB594B1CA821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementation", "Implementation\Implementation.csproj", "{35E1C9A9-8561-4646-A659-463574B97AAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implementation", "Implementation\Implementation.csproj", "{35E1C9A9-8561-4646-A659-463574B97AAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{DB582F91-45E7-4AAA-BED4-5A44F3CA2295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{DB582F91-45E7-4AAA-BED4-5A44F3CA2295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechAssignment.Test", "TechAssignment.Test\TechAssignment.Test.csproj", "{5D7D3D69-8A09-4DD7-87F5-A046CF5D482D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DB582F91-45E7-4AAA-BED4-5A44F3CA2295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB582F91-45E7-4AAA-BED4-5A44F3CA2295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB582F91-45E7-4AAA-BED4-5A44F3CA2295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7D3D69-8A09-4DD7-87F5-A046CF5D482D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7D3D69-8A09-4DD7-87F5-A046CF5D482D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7D3D69-8A09-4DD7-87F5-A046CF5D482D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7D3D69-8A09-4DD7-87F5-A046CF5D482D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
