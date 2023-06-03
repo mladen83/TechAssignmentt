@@ -27,6 +27,19 @@ namespace Implementation
                     Id = dbProduct.Id,
                     Name = dbProduct.Name
                 };
+                foreach (Sale sale in dbProduct.ProductSales)
+                {
+                    SalesDto saleDto = new()
+                    {
+                        CustomerId = sale.CustomerId,
+                        DateOfSale = sale.DateOfSale,
+                        Id = sale.Id,
+                        PricePerPiece = sale.PricePerPiece,
+                        ProductId = sale.ProductId,
+                        Quantity = sale.Quantity,
+                    };
+                    productDto.ProductSales.Add(saleDto);
+                }
                 productResults.Add(productDto);
             }
             return productResults;

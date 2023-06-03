@@ -24,6 +24,6 @@ namespace DataAccessLibrary.Models
         public DateTime DateOfSale { get; set; }
 
         [Required]
-        public Product SaleProduct { get; set; } = new Product();
+        public Product? SaleProduct { get; set; }
     }
 }
